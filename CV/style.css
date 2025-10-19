@@ -1,0 +1,383 @@
+  #main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background: rgb(99, 96, 93);
+  }
+
+  .maindiv {
+      display: flex;
+      width: 58%;
+      height: 81%;
+      background: rgb(255, 255, 255);
+  }
+
+  .nav {
+      width: 43%;
+      height: 900px;
+      background: rgba(86, 155, 233, 0.973);
+  }
+
+  .pic {
+      width: 150px;
+      height: 150px;
+  }
+
+  .pic img {
+      width: 100%;
+      height: 100%;
+      padding: 18px;
+      border-radius: 50%;
+      margin-left: 20px;
+  }
+
+  .name {
+      padding-top: 8px;
+
+  }
+
+  .name h2,
+  p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+  }
+
+  .name p {
+      text-align: center;
+      font-size: small;
+  }
+
+  .contact {
+      padding: 8px;
+
+  }
+
+  .contact p,
+  gmail,
+  number {
+      font-size: 14px;
+      display: flex;
+      flex-wrap: nowrap;
+  }
+
+  .contact i {
+      margin-right: 10px;
+  }
+
+  .iconaddress {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: white;
+
+  }
+
+  hr {
+      width: 180px;
+      border: 1px solid rgba(130, 197, 209, 0.822);
+  }
+
+  .skills h2,
+  .social h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      margin-left: 7px;
+      font-size: 20px;
+  }
+
+  .skills span {
+      width: auto;
+      font-size: 14px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 0;
+      padding-left: 7px;
+      padding-right: 5px;
+  }
+
+  .bar {
+      flex-grow: 1;
+      height: 6px;
+      background: #b3b3b3;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 0;
+      max-width: 140px;
+  }
+
+  .fill {
+      height: 100%;
+      background: white;
+      border-radius: 5px;
+
+  }
+
+  .fill.html {
+      width: 80%;
+      background: wheat;
+  }
+
+  .skillsitems {
+      display: flex;
+      align-items: center;
+      margin-left: 0;
+
+
+  }
+
+  .skillsitems .percent {
+      font-weight: bold;
+      margin-right: 0;
+      margin-left: 5px;
+      width: 35px;
+      font-size: 14px;
+  }
+
+  .fill.CSS {
+      width: 70%;
+      background: wheat;
+  }
+
+  .fill.sql {
+      width: 72%;
+      background: wheat;
+  }
+
+  .fill.C {
+      width: 75%;
+      background: wheat;
+  }
+
+  .fill.Python {
+      width: 79%;
+      background: wheat;
+  }
+
+  .socialitems i {
+      margin-left: 8px;
+  }
+
+  .github {
+      display: flex;
+      gap: 10px;
+      padding-top: 0;
+      margin-top: 0px;
+
+  }
+
+  .git {
+      padding-top: 10px;
+  }
+
+  .githublogo i {
+      font-size: 24px;
+      color: white;
+  }
+
+  .social h2 {
+      margin-bottom: 6px;
+  }
+
+  .githeading {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: bold;
+
+
+  }
+
+  .gitlink {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: small;
+  }
+
+  .linkedin {
+      display: flex;
+      gap: 10px;
+      padding-top: 0;
+      margin-top: 0px;
+
+  }
+
+  .din {
+      padding-top: 10px;
+  }
+
+  .linkedinlogo i {
+      font-size: 24px;
+      color: white;
+  }
+
+  .linkheading {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: bold;
+
+
+  }
+
+  .linkedinlink {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: small;
+  }
+
+
+
+
+
+  .instagram {
+      display: flex;
+      gap: 10px;
+      padding-top: 0;
+      margin-top: 8px;
+
+  }
+
+  .insta {
+      padding-top: 10px;
+  }
+
+  .instalogo i {
+      font-size: 24px;
+      color: white;
+  }
+
+  .instaheading {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: bold;
+
+
+  }
+
+  .instalink {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: small;
+  }
+
+  /* content */
+  .about {
+      margin-top: 38px;
+      margin-left: 15px;
+  }
+
+  .aboutheading h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(86, 155, 233, 0.973);
+  }
+
+  .aboutcontent p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(80, 76, 76);
+      font-size: small;
+
+  }
+
+  .aboutline hr {
+      width: 430px;
+
+  }
+
+  .education {
+      margin-top: 22px;
+      margin-left: 15px;
+      margin-bottom: 0px;
+  }
+
+  .educationheading h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(86, 155, 233, 0.973);
+      text-transform: uppercase;
+
+  }
+
+  .educationcontent h5 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(0, 0, 0, 0.973);
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: bold;
+
+  }
+
+  .educationcontent p {
+      color: rgba(31, 32, 32, 0.973);
+      font-weight: normal;
+      font-size: small;
+      margin-top: 0;
+
+  }
+
+  .internships {
+      margin-top: 24px;
+      margin-left: 15px;
+      margin-bottom: 0px;
+  }
+
+  .internshipheading h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(86, 155, 233, 0.973);
+      text-transform: uppercase;
+
+  }
+
+  .internshipnames h5 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(0, 0, 0, 0.973);
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: bold;
+      margin: 0px;
+  }
+
+  .internshipnames p {
+      color: rgba(44, 45, 46, 0.973);
+      font-size: small;
+      margin: 2px 0;
+  }
+
+  .internshipdetails ul {
+      color: rgba(52, 53, 54, 0.973);
+      font-size: small;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 5px;
+      padding-left: 20px;
+  }
+
+  .internshipdetails li {
+      margin-bottom: 4px;
+  }
+
+  .certification {
+      margin-top: 22px;
+      margin-left: 15px;
+      margin-bottom: 0px;
+  }
+
+  .certificationheading h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(86, 155, 233, 0.973);
+      text-transform: uppercase;
+
+  }
+
+  .certificationcontent p {
+      color: rgba(31, 32, 32, 0.973);
+      font-weight: normal;
+      font-size: small;
+      margin-top: 0;
+
+  }
+
+  .projects p {
+      color: rgba(31, 32, 32, 0.973);
+      font-weight: normal;
+      font-size: small;
+      margin-top: 0;
+
+  }
+ 
