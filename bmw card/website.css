@@ -1,0 +1,138 @@
+/* body
+{
+    background-image: url(tiles\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#navigation{
+    display: flex;
+    position:relative;
+   gap:50px;
+  width:100%;
+  min-height: 70px;
+   background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+   justify-content: space-around;
+}
+
+.navitems
+{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    gap:15px;
+  
+}
+ul{
+    
+    list-style: none;
+   
+  
+}
+.webname
+{
+    display: flex;
+    color: azure;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: larger;
+   margin-top: 20px;
+   padding-top: 10px;
+    
+}
+.container{
+    width:100%;
+    height: 100%;
+   
+}
+.navcontainer
+{
+    display: flex;
+  
+}
+.footer
+{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);       
+    font-size: 21px;
+    color: azure;
+    text-align: center;
+    
+}
+.content
+{
+    border: 2px solid rgb(170, 38, 163);
+    border-radius: 20px;
+   height: 550px;
+   width: 70%;
+   margin-left: 150px;
+   overflow: hidden;
+   overflow-x: none;
+   overflow-y: none;
+   display: flex;
+   flex-direction: column;
+  ;
+}
+.left
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* .right
+{
+    float: right;
+    margin-top: 50px;
+} */
+ .item
+ {
+    display: flex;
+    justify-content: space-around;
+ }
+ img
+ {
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px rgb(228, 85, 185);
+    transition-property: all;
+   transition-duration: 2s;
+   transition-timing-function: linear;
+  
+  
+ }
+ /* .right{
+    position: relative;
+    overflow: hidden;
+ } */
+
+ .right img:hover
+ {
+    transform: scale(1.3);
+   
+ }
+ h2
+{
+    text-shadow: 0 0 3px #d619ad;
+}
+.overlay
+{
+    position:relative;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: grey;
+}
